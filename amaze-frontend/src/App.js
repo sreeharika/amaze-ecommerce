@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './index.css';
-import data from './data'
+
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import HomeScreen from './components/HomeScreen';
 import ProductScreen from './components/ProductScreen';
