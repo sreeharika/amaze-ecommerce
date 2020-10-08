@@ -8,7 +8,8 @@ export default {
         price: 599,
         brand: 'Nike',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        countInStock: 6
         },
         {
             _id:'2',
@@ -18,7 +19,8 @@ export default {
             price: 799,
             brand: 'Polo',
             rating: 4,
-            numReviews: 100
+            numReviews: 100,
+            countInStock: 0
         },
         {
             _id:'3',
@@ -28,7 +30,8 @@ export default {
             price: 399,
             brand: 'Max',
             rating: 3.5,
-            numReviews: 20
+            numReviews: 20,
+            countInStock: 10
         },
         {
             _id:'4',
@@ -38,7 +41,8 @@ export default {
             price: 999,
             brand: 'Max',
             rating: 4.5,
-            numReviews: 15
+            numReviews: 15,
+            countInStock: 6
         },
         {
             _id:'5',
@@ -48,7 +52,8 @@ export default {
             price: 385,
             brand: 'USpolo',
             rating: 4,
-            numReviews: 105
+            numReviews: 105,
+            countInStock: 6
         },
         {
             _id:'6',
@@ -58,7 +63,8 @@ export default {
             price: 599,
             brand: 'GAP',
             rating: 4.5,
-            numReviews: 5
+            numReviews: 5,
+            countInStock: 6
         },
         {
             _id:'7',
@@ -68,7 +74,8 @@ export default {
             price: 1099,
             brand: 'Levis',
             rating: 3.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6
         },
         {
             _id:'8',
@@ -78,7 +85,8 @@ export default {
             price: 1299,
             brand: 'Spykar',
             rating: 4,
-            numReviews: 0
+            numReviews: 0,
+            countInStock: 0
         },
                
 
