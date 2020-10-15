@@ -12,7 +12,7 @@ function productListReducer(state = { products: [] }, action){
         default:
             return state;
 
-    }
+    } 
 }
 
 function productDetailsReducer(state = { product: {} }, action){

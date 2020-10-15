@@ -19,8 +19,8 @@ export default function ProductScreen(props) {
     }, []);
 
     const handlerAddToCart = () => {
-        props.history.push('/cart' + props.match.params.id + "?qty" + qty)
-    }
+        props.history.push('/cart/' + props.match.params.id + "?qty=" + qty);
+    };
 
     return  <div>
             <div>
@@ -69,7 +69,7 @@ export default function ProductScreen(props) {
                             </select>
                         </li>
                         <li>
-                        {product.countInStock > 0  && <button onClick={handlerAddToCart} className='button'>Add to Cart</button>
+                        {product.countInStock > 0  && <button onClick={handlerAddToCart} className='button primary'>Add to Cart</button>
                         }
                         </li>
                     </ul>
